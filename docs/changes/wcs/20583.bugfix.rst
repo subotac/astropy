@@ -1,0 +1,3 @@
+Fixed inverse WCS transformations when detector-to-image distortion is present
+for only one pixel axis. ``WCS.has_distortion`` now recognizes either detector
+distortion lookup table.
